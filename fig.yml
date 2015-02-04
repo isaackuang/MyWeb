@@ -1,0 +1,6 @@
+web:
+  image: isaackuang/nginx
+  ports:
+    - "80"
+  volumes:
+    - /data/myweb:/var/www/html
