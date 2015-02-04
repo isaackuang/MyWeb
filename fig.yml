@@ -1,5 +1,5 @@
 web:
-  image: isaackuang/nginx
+  image: isaackuang/centos-nginx
   ports:
     - "80"
   volumes:
