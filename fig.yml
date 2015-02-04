@@ -3,4 +3,4 @@ web:
   ports:
     - "80"
   volumes:
-    - /data/myweb:/var/www/html
+    - .:/var/www/html
